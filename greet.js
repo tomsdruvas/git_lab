@@ -1,1 +1,5 @@
-const helloWorld = (name = "World") => `Hello ${name}!`
+fix/rename_function
+const greet = (name ="World") => {
+  return `Hello ${name}!`;
+}
+
